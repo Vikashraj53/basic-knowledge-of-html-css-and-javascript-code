@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Loop</title>
+</head>
+<body>
+    <h3>Example for Loop</h3>
+    <p>
+        Click the button to loop through 
+        a block of code five times.
+    </p>
+
+    <button onclick="Function()">Try it</button>
+    <p id="Sample"></p>
+
+    <script>
+        function Function() {
+                              var text = "";
+                              var i;
+
+                              for (i = 1; i < 6; i++) {
+                                                        text += "The number is " +i+ "<br>"
+                                                      }
+                              document.getElementById("Sample").innerHTML = text;
+
+                            }
+    </script>
+
+</body>
+</html>

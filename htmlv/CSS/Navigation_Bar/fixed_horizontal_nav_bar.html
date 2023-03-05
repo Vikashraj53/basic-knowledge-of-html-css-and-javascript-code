@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fixed Horizontal Nav Bar</title>
+
+    <style>
+        
+       body {
+               margin: 0;
+            }
+
+       ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: rgb(223, 97, 97);
+             position: fixed;
+             top: 0;
+             width: 100%;
+          }  
+          
+       li {
+             float: left;
+          }   
+
+       li a {
+               margin: 5px;
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+            }
+
+       li a:hover:not(.active) {
+                                  margin: 5px;
+                                  background-color: rgb(28, 173, 159);
+                               }     
+ 
+       .active {
+                 margin: 5px;
+                 background-color: rgb(58, 72, 65); 
+               }
+
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#Home">Home</a></li>
+        <li><a href="#Content">Content</a></li>
+        <li><a href="#yeekox">yeekox</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+
+    <div style="padding: 20px; margin-top: 30px; background-color: lightgrey; height: 1500px;">
+        <h1>Fixed Top Horizontal Navigation Bar</h1>
+        <h2>Scroll this page to see the effect.</h2>
+
+        <h2>Nav bar will stay at the top of the page while scrolling.</h2>
+
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+        <p>Some text</p>
+
+    </div>
+
+</body>
+</html>

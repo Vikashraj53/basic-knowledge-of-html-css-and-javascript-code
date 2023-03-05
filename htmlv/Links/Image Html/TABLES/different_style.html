@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Different Style</title>
+
+    <style>
+        table {
+                width: 50%;
+              }
+
+        table, th, td {
+                        border: 1px solid blue;
+                        border-collapse: collapse;
+                      }
+                      
+               th, td {
+                        padding: 5px;
+                        text-align: left;
+                      }
+                      
+        table#t01 tr:nth-child(even) {
+                                        background-color: blueviolet; 
+                                     }  
+                                     
+        table#t01 tr:nth-child(odd) {
+                                        background-color: rgb(148, 129, 165); 
+                                     }
+                                     
+        table#t01 th {
+                       background-color: rgb(131, 205, 180);
+                     }                             
+              
+    </style> 
+
+</head>
+<body>
+    
+   <table id="t01">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+
+      <tr>
+        <td>jack</td>
+        <td>jck</td>
+      </tr> 
+
+      <tr>
+        <td>Eve</td>
+        <td>Adam</td>
+      </tr> 
+
+      <tr>
+        <td>John</td>
+        <td>wee</td>
+      </tr> 
+
+   </table>
+
+</body>
+</html>

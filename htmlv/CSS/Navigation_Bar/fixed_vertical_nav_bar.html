@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fixed Vertical Nav Bar</title>
+    <style>
+        body {
+                margin: 10px;
+             }
+        
+        ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              width: 20%;
+              background-color: rgb(207, 186, 186);
+              position: fixed;
+              height: 100%;
+              overflow: auto;
+           }
+
+        li a {
+                display: block;
+                color: #bf3473;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+             }
+             
+        li a.active {
+                       background-color: #bf3473;
+                       color: white;
+                    } 
+                    
+        li a:hover:not(.active) {
+                                   background-color: turquoise;
+                                   color: white;
+                                }            
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#Home">Home</a></li>
+        <li><a href="#Content">Content</a></li>
+        <li><a href="#yeekox">yeekox</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+
+    <div style="margin-left: 26%; padding: 2px 16px; height: 1000px;">
+
+        <h2>Fixed Vertical Nav Bar</h2>
+        
+        <h3>Try to scroll this area, and see how the sidenav sticks
+             to the page. </h3>
+
+        <p>Notice that this div element has a left margin of 26%.
+           This is because the side navigation is set to 26% width.
+           If you remove the margin, the sidenav </p>
+           
+        <p>Also notice that we have set overflow:auto to sidenav.</p>
+        
+        <p>Text 1</p>
+        <p>Text 2</p>
+        <p>Text 3</p>
+        <p>Text 4</p>
+        <p>Text 5</p>
+        <p>Text 6</p>
+        <p>Text 7</p>
+        <p>Text 8</p>
+        <p>Text 9</p>
+
+    </div> 
+
+</body>
+</html>

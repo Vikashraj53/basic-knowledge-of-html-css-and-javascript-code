@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Horizontal Navigation Bar</title>
+    
+    <style>
+        ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgb(205, 107, 107);
+           }
+
+        li {
+              float: left;
+           }
+
+        li a {
+               margin-top: 5px;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+             }  
+             
+        li a:hover:not(.active) {
+                                    margin: 5px;
+                                    background-color: rgb(148, 214, 148);
+                                } 
+                                
+        .active {
+                   margin: 5px;
+                   background-color: rgb(11, 132, 108);
+                }                        
+
+    </style>
+
+</head>
+<body>
+    <h3>Horizontal Navigation Bar</h3>
+
+    <p>In this example, Active class is in a steelblue Color
+        and a white text. </p>
+
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#Content">Content</a></li>
+            <li><a href="#yeekox">yeekox</a></li>
+            <li><a href="#About">About</a></li>
+        </ul>
+        
+</body>
+</html>

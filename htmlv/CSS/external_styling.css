@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(132, 188, 169);
+  }
+
+h1 {
+  color: gold;
+  font-family: Verdana;
+  font-size: 300%;
+}
+
+p {
+   color: greenyellow;
+   font-family: Verdana;
+   font-size: 150%; 
+}  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Boolean</title>
+</head>
+<body>
+    <p>Display the value of Boolean (8>3):</p>
+ 
+    <button onclick="myBoolean()">Try it</button> 
+
+    <p id="sample"></p>
+
+    <script>
+        function myBoolean() {
+                               document.getElementById("sample").innerHTML = Boolean(8 > 3);
+                             }
+    </script>
+
+    <p>Display the boolean value of 0</p>
+
+    <button onclick="myboolean()">Try it</button>
+
+    <p id="sample1"></p>
+
+    <script>
+        function myboolean() {
+                               var x = 0;
+                               document.getElementById("sample1").innerHTML = Boolean(x);
+                             }
+    </script>
+     
+</body>
+</html>

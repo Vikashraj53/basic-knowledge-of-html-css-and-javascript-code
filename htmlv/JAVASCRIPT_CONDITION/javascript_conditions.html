@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Conditions</title>
+</head>
+<body>
+    <h3>This is the example of if statement </h3>
+
+    <p>Click the button to know your driving eligibility.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+                                var message;
+                                var age = 23;
+                                
+                                if (age > 19) {
+                                                 message = "you are eligible to drive."
+                                              }
+                                              document.getElementById("demo").innerHTML = message;
+
+                              }
+    </script>
+
+    <h3>This is the example of else Statement.</h3>
+
+    <p>Click the button to know your driving eligibility.</p>
+
+    <button onclick="myFunction1()">Try it</button>
+
+    <p id="demo1"></p>
+
+    <script>
+        function myFunction1() {
+                                 var message1;
+                                 var age = 1;
+
+                                 if (age > 19) {
+                                                 message1="you are eligible to drive";
+                                               }
+                                               else {
+                                                      message1="not eligible to driver";
+                                                    }
+                                 document.getElementById("demo1").innerHTML = message1;                   
+                                               
+                               }
+    </script>
+
+    <h3>This is the example of else if Statement</h3>
+    <p>Click the button to know your driving eligibility.</p>
+
+    <button onclick="myFunction2()">Try it</button>
+    <p id="demo2"></p>
+
+    <script>
+        function myFunction2() {
+                                 var message1;
+                                 var age = 19;
+
+                                 if (age < 19) {
+                                                 message2="not eligible to drive";
+                                               }
+                                 else if (age > 19) {
+                                                      message2="you are eligible to drive";
+                                                    } 
+                                 else {
+                                        message2="you have just turned 19!";
+                                      }
+        document.getElementById("demo2").innerHTML = message2;                                           
+                         
+                               }
+    </script>
+
+</body>
+</html>

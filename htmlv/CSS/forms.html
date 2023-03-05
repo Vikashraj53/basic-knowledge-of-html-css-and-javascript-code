@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title>Froms</title>
+
+    <style>
+         
+       <!--This is for Padded field-->
+        input [type=text] {
+                            width: 100%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border-radius: 4px; 
+                          }
+        
+        <!--This is for Bordered Field-->
+        input [type=text1] {
+                              width: 100%;
+                              padding: 12px 20px;
+                              margin: 8px 0;
+                              box-sizing: border-box;
+                              border: 4px solid steelblue;
+                              border-radius: 4px;   
+                           }
+
+        <!--This is for image Field-->  
+        input [type=text2] {
+                             width: 100%;
+                             box-sizing: border-box;
+                             border: 2px solid #ccc;
+                             border-radius: 4px;
+                             font-size: 16px;
+                             background-color: white;
+                             background-image: url ('sicon.png');
+                             background-position: 10px 10px;
+                             background-repeat: no-repeat;
+                             padding: 12px 20px 12px 40px;
+                           }  
+                           
+        <!--This is for Animated Field-->
+        input [type=text3]:focus {
+                                   width: 130%;
+                                   box-sizing: border-box;
+                                   border: 3px solid steelblue;
+                                   border-radius: 4px;
+                                   font-size: 16px;
+                                   background-color: white;
+                                   background-image: url ('sicon.png');
+                                   background-position: 10px 10px;
+                                   background-repeat: no-repeat;
+                                   padding: 12px 20px 12px 40px;
+                                   -webkit-text-stroke-width: 0.4s ease-in-out;
+                                   transition: width 0.4s ease-in-out;
+                                 } 
+                                 
+        input [type=text3]:focus {
+                                   width: 60%;
+                                 }                         
+
+
+    </style>
+
+</head>
+<body>
+
+    <h3>Padded Text fields:</h3>
+    <from>
+
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="fname">
+
+       <label for="fname">Last Name</label>
+       <input type="text" id="lname" name="lname">
+
+    </from>
+
+    <h3>Bordered Text Fields</h3>
+    <form>
+
+        <label for="fname">First Name</label>
+        <input type="text1" id="fname" name="fname">
+ 
+        <label for="fname">Last Name</label>
+        <input type="text1" id="lname" name="lname">
+
+    </form>
+
+    <h3>Text Fields with icon/image </h3>
+    <form>
+        <input type="text2" name="search" placeholder="Search...">
+    </form>
+
+    <h3>Animated Text Field</h3>
+    <form>
+        <input type="text3" name="search" placeholder="Search...">
+    </form>
+
+</body>
+</html>

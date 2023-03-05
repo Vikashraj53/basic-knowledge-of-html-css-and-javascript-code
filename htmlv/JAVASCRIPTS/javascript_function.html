@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Function</title>
+</head>
+<body>
+    
+    <p>
+       This example calls a function which performs a calculation,
+       and returns the result: 
+    </p>
+
+    <p id="sample"></p>
+
+    <script>
+        function myFunction(L, M) {
+                                     return L * M;
+                                  }
+
+        document.getElementById("sample").innerHTML = myFunction(6, 3);                                                     
+    </script>
+
+    <p>
+        This example calls a function to convert from Seconds to
+        Minutes:
+    </p>
+
+    <p id="sample1"></p>
+
+    <script>
+        function tominutes(f) {
+                                return f/60 +" minutes ";
+                              }
+
+        document.getElementById("sample1").innerHTML = tominutes(120);                
+                              
+    </script>
+
+</body>
+</html>

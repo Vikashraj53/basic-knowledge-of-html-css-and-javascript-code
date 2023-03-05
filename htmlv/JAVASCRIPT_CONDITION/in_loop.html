@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>For/in Loop</title>
+</head>
+<body>
+    <h3>Example for For/In Loop</h3>
+    <p id="sample"></p>
+
+    <script>
+        var txt = "";
+        var person = { name:"John", gender:"Male", age:28 };
+        var x;
+
+        for (x in person) {
+                            txt += person[x] +  "  ";
+                          }
+
+        document.getElementById("sample").innerHTML = txt;                  
+
+    </script>
+</body>
+</html>

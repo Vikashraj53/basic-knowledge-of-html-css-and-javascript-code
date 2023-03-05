@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Do/While Loop</title>
+</head>
+<body>
+   <h3>Example For Do/While Loop</h3>
+   <p>
+    Click the button to loop through a block of code
+    as long as (i) is less than 12. 
+   </p>
+   
+   <button onclick="Function()">Try it</button>
+
+   <p id="sample"></p>
+
+   <script>
+       function Function() {
+                             var text = "";
+                             var i=1;
+                          
+                             do {
+                                  text += "<br> The number is " + i;
+                                  i++;
+                                }
+
+                                while (i < 12)
+                                document.getElementById("sample").innerHTML = text;
+                           }
+   </script>
+
+</body>
+</html>

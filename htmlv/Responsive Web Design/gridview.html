@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridview</title>
+
+    <style>
+        * {
+            box-sizing: border-box; 
+          }
+
+        .row:after {
+                     content: "";
+                     clear: both;
+                     display: block;
+                   }
+
+        [class*="col-"] {
+                          float: left;
+                          padding: 15px;
+                        }
+                        
+                        .col-1 {width: 8.33%;}
+                        .col-2 {width: 17.16%;}
+                        .col-3 {width: 25%;}
+                        .col-4 {width: 33.33%;}
+                        .col-5 {width: 41.66%;}
+                        .col-6 {width: 50%;}
+                        .col-7 {width: 58.33%;}
+                        .col-8 {width: 66.66%;}
+                        .col-9 {width: 75%;}
+                        .col-10 {width: 82.33%;}
+                        .col-11 {width: 91.55%;}
+                        .col-12 {width: 100%;}
+
+                        /* html {
+                               font-family: "Lucida Sans" , sans-serif;
+                             } */
+
+                        .header {
+                                  text-align: center;
+                                  background-color: rgb(48, 107, 114);
+                                  color: white;
+                                  padding: 15px;
+                                }
+                                
+                        .menu li {
+                                   list-style-type: none;
+                                   margin: 1px;
+                                   padding: 1px;
+                                 }
+                                 
+                        .menu li {
+                                   padding: 7px;
+                                   margin-bottom: 9px;
+                                   text-align: center;
+                                   background-color: rgb(46, 135, 126);
+                                   color: #ffffff;
+                                   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 
+                                               0 1px 2px rgba(0, 0, 0, 0.24);
+                                 } 
+                                 
+                        .menu li:hover {
+                                         background-color: #ca8b88;
+                                       }         
+
+
+                        #footer {
+                  
+                                  background-color: rgb(46, 135, 126);
+                                  color: white;
+                                  clear: both;
+                                  text-align: center;
+                                  padding: 5px;
+                                }     
+
+                             
+    </style>
+
+</head>
+<body>
+    
+    <div class="header" >
+       <h1>yeekox Cats</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="col-3 menu">
+            <ul>
+                <li>Tiger</li>
+                <li>Cheetah</li>
+                <li>Puma</li>
+                <li>yeekox</li>
+            </ul>
+
+    </div>
+
+    <div class="col-9">
+    <h1>yeekox Tiger</h1>
+    
+    <p>
+        The tiger (Panthera tigris) is the largest living cat 
+        species and a member of the genus Panthera. It is most 
+        recognisable for its dark vertical stripes on orange 
+        fur with a white underside. An apex predator, it primarily 
+        preys on ungulates, such as deer and wild boar. It is 
+        territorial and generally a solitary but social predator, 
+        requiring large contiguous areas of habitat to support 
+        its requirements for prey and rearing of its offspring. 
+        Tiger cubs stay with their mother for about two years and 
+        then become independent, leaving their mother's home range 
+        to establish their own.
+    </p>
+
+    </div>
+
+    <div id="footer">
+        <footer>
+             yeekox Copyright@2021
+        </footer>
+    </div>
+</body>
+</html>
